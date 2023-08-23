@@ -1,20 +1,21 @@
-import React from "react";
-import styles from "./Footer.module.css";
-import { NavLink } from "react-router-dom";
-import facebook from "../../assets/images/footer/facebook.svg";
-import insta from "../../assets/images/footer/instagramm.svg";
-import inn from "../../assets/images/footer/in.svg";
-import twitter from "../../assets/images/footer/twitter.svg";
-import youtube from "../../assets/images/footer/youtube.svg";
+import React from 'react';
+import styles from './Footer.module.css';
+import { NavLink } from 'react-router-dom';
+import facebook from '../../assets/images/footer/facebook.svg';
+import insta from '../../assets/images/footer/instagramm.svg';
+import inn from '../../assets/images/footer/in.svg';
+import twitter from '../../assets/images/footer/twitter.svg';
+import youtube from '../../assets/images/footer/youtube.svg';
+import logo from '/src/assets/images/logo.svg';
 
 const Footer = () => {
   return (
     <footer>
       <div className="container">
         <div className={styles.footer__inner}>
-          <NavLink to={"/"}>
+          <NavLink to={'/'}>
             <div>
-              <img src="/src/assets/images/logo.svg" alt="" />
+              <img src={logo} alt="" />
             </div>
             <p>AD Translations</p>
           </NavLink>
@@ -23,13 +24,13 @@ const Footer = () => {
               <h6>Pages</h6>
             </li>
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to={'/'}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"/services"}>Services</NavLink>
+              <NavLink to={'/services'}>Services</NavLink>
             </li>
             <li>
-              <NavLink to={"/about"}>About</NavLink>
+              <NavLink to={'/about'}>About</NavLink>
             </li>
           </ul>
           <ul>
@@ -37,13 +38,13 @@ const Footer = () => {
               <h6>Security</h6>
             </li>
             <li>
-              <NavLink to={"/cookie"}>Cookie</NavLink>
+              <NavLink to={'/cookie'}>Cookie</NavLink>
             </li>
             <li>
-              <NavLink to={"/conditions"}>Terms and Conditions</NavLink>
+              <NavLink to={'/conditions'}>Terms and Conditions</NavLink>
             </li>
             <li>
-              <NavLink to={"/privacy"}>Privacy Policy</NavLink>
+              <NavLink to={'/privacy'}>Privacy Policy</NavLink>
             </li>
           </ul>
           <ul>
