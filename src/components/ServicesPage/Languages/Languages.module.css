@@ -1,0 +1,65 @@
+.languages {
+  padding: 60px 0px;
+}
+.languages .languages__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+.languages .languages__inner > div {
+  margin: 0 0 60px 0;
+}
+.languages .languages__inner > div > div {
+  max-width: 190px;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 21px;
+  cursor: pointer;
+}
+.languages .languages__inner > div > div p {
+  color: var(--text, #151515);
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  width: 25px;
+  height: 30px;
+  overflow: hidden;
+}
+.languages .languages__inner > div > div span {
+  display: block;
+  color: #151515;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 2px;
+  border: 1px solid #646464;
+  text-align: center;
+  padding: 6px 10px;
+  width: 124px;
+  max-height: 44px;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.languages .languages__inner > div > div span:hover {
+  background-color: #007E1D;
+  color: #fafafa;
+}
+.languages .languages__inner > div .pushContent {
+  margin-top: 30px;
+}
